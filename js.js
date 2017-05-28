@@ -17,9 +17,9 @@ function mobileMenu() {
 function removeMenu(){
     var a = document.querySelector('nav');
     if(window.innerWidth>850){
-         a.style.display = "block";
+         a.style.display = 'block';
     }else{
-    a.style.display = "none"
+    a.style.display = 'none';
     }
 }
 
@@ -30,12 +30,12 @@ var menuList = document.querySelectorAll('li');
 
 
 for (i = 0; i < menua.length; i++) {
-   menua[i].addEventListener("click", display);
+   menua[i].addEventListener('click', display);
 }
 
 
 for (j = 0; j < menuList.length; j++) {
-   menuList[j].addEventListener("click", active);
+   menuList[j].addEventListener('click', active);
 }
 
 function active(){
@@ -45,6 +45,9 @@ function active(){
          elem.classList.remove('active');
       });
    this.classList.add('active');
+   if(window.innerWidth<850){
+      document.querySelector('nav').style.display = 'none'
+   }
 }
 
 
