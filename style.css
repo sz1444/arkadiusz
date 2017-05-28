@@ -471,3 +471,10 @@ ul li a{
       background-color: #484848;
    }
 
+@media (max-width:350px){
+	#container5 .fa{
+	display:block;
+        margin:0 auto;
+	}
+	
+}
