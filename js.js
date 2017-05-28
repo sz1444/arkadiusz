@@ -2,7 +2,7 @@ var menu = document.querySelector('#menu');
 
 
 menu.addEventListener('click', mobileMenu);
-window.addEventListener('resize', removeMenu);
+window.addEventListener('resize', resize);
 
 function mobileMenu() {
    var a = document.querySelector('nav');
@@ -14,12 +14,17 @@ function mobileMenu() {
    }
 }
 
-function removeMenu(){
+function resize(){
     var a = document.querySelector('nav');
     if(window.innerWidth>850){
          a.style.display = 'block';
     }else{
     a.style.display = 'none';
+   [].forEach.call(document.querySelectorAll('[id^=container]'),
+      function (elem) {
+         elem.style.display = 'block';
+      }); 
+       
     }
 }
 
