@@ -18,6 +18,8 @@ function removeMenu(){
     var a = document.querySelector('nav');
     if(window.innerWidth>850){
          a.style.display = "block";
+    }else{
+    a.style.display = "none"
     }
 }
 
