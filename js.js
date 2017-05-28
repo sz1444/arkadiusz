@@ -1,8 +1,8 @@
 var menu = document.querySelector('#menu');
 
 
-menu.addEventListener("click", mobileMenu);
-
+menu.addEventListener('click', mobileMenu);
+window.addEventListener('resize', removeMenu);
 
 function mobileMenu() {
    var a = document.querySelector('nav');
@@ -12,6 +12,13 @@ function mobileMenu() {
    } else {
       a.style.display = "block"
    }
+}
+
+function removeMenu{
+    var a = document.querySelector('nav');
+    if(window.innerWidth>850){
+         a.style.display = "block"
+    }
 }
 
 var menua = document.querySelectorAll('li a');
