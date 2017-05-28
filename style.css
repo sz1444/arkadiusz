@@ -106,12 +106,6 @@ li .fa{
  }
 }
 
-@media(min-width:850px){
-   nav{display:block;
-	}
-}
-
-
 
 .profil{
  margin-left: 180px;
