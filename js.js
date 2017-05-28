@@ -7,10 +7,10 @@ menu.addEventListener("click", mobileMenu);
 function mobileMenu() {
    var a = document.querySelector('nav');
    
-   if (a.style.display == 'none') {
-      a.style.display = "block"
-   } else {
+   if (a.style.display == 'block') {
       a.style.display = "none"
+   } else {
+      a.style.display = "block"
    }
 }
 
