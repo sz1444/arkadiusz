@@ -341,10 +341,10 @@ p span{
  border-bottom: 1px solid #ddd;
  margin: 0;
  display: block;
- color: #005caa
+ color: #005caa;
 }
 
-#container5 .fa span{
+#container5 span{
  font-size: 30px;
  padding: 10px;
  color:#727272;
