@@ -476,3 +476,8 @@ ul li a{
 
 	
 }
+@media (max-width:850px){
+	#container5 span{
+	font-size:16px;
+	}
+}
