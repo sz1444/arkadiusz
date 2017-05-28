@@ -341,6 +341,7 @@ p span{
  border-bottom: 1px solid #ddd;
  margin: 0;
  display: block;
+	text-align:center;
  color: #005caa;
 }
 
@@ -471,11 +472,5 @@ ul li a{
       background-color: #484848;
    }
 
-@media (max-width:350px){
-	#container5 .fa{
-	display:block;
-        margin:0 auto;
-        text-align:center;
-	}
 	
 }
