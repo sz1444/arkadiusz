@@ -369,12 +369,7 @@ width: 100%;
 }
 }
 
-@media(max-width:1000px){
-#container5 .fa {
- 
 
-}
-}
 
 #container1{
  display: ;
@@ -478,6 +473,6 @@ ul li a{
 }
 @media (max-width:450px){
 	#container5 span{
-	font-size:15px;
+	font-size:20px;
 	}
 }
