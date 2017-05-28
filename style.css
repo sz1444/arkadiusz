@@ -83,7 +83,6 @@ li .fa{
  display:none;
  width: 100%;
  height: 90%;
-  
  }  
  
  ul{
@@ -105,6 +104,11 @@ li .fa{
   display: inline-block;
   font-size: 20px;
  }
+}
+
+@media(min-width:850px){
+   nav{display:block;
+	}
 }
 
 
