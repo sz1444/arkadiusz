@@ -14,10 +14,10 @@ function mobileMenu() {
    }
 }
 
-function removeMenu{
+function removeMenu(){
     var a = document.querySelector('nav');
     if(window.innerWidth>850){
-         a.style.display = "block"
+         a.style.display = "block";
     }
 }
 
